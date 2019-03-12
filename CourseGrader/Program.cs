@@ -65,7 +65,7 @@ namespace CourseGrader
                 return fail;
             }
 
-            else
+            else if (inputArray.Length ==0)
             {
                 return fail;
             }
